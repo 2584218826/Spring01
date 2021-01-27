@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="4af47e20-7d9e-4693-beb3-0d7d24cfc018" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="day02_Spring" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="spring-beans.schema" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/main/java/cn/xjt/spring/aop/MyLoggerAspect.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main/resources/aop-xml.xml" root0="SKIP_INSPECTION" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1hZxSppSdFKmmCgyDXZ6So7k16z" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/cn/xjt/spring/aopxml" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\JAVA Folder\Spring_test\day02_Spring\src\main\java\cn\xjt\spring\aopxml" />
+      <recent name="E:\JAVA Folder\Spring_test\day02_Spring\src" />
+      <recent name="E:\JAVA Folder\Spring_test\day02_Spring\src\main\resources" />
+      <recent name="E:\JAVA Folder\Spring_test\day02_Spring\src\main\java\cn\xjt\spring\aop" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Test">
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.xjt.spring.aop.Test" />
+      <module name="day02_Spring" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.xjt.spring.aop.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestHandle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.xjt.spring.aop.TestHandle" />
+      <module name="day02_Spring" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.xjt.spring.aop.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestHandle" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="day02_Spring" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.xjt.spring.aop.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="cn.xjt.spring.aop" />
+      <option name="MAIN_CLASS_NAME" value="cn.xjt.spring.aop.TestHandle" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestHandle.testhadle" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="day02_Spring" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.xjt.spring.aop.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="cn.xjt.spring.aop" />
+      <option name="MAIN_CLASS_NAME" value="cn.xjt.spring.aop.TestHandle" />
+      <option name="METHOD_NAME" value="testhadle" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="day02_Spring" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.xjt.spring.aopxml.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="cn.xjt.spring.aopxml" />
+      <option name="MAIN_CLASS_NAME" value="cn.xjt.spring.aopxml.Test" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Test" />
+        <item itemvalue="JUnit.Test.test" />
+        <item itemvalue="Application.TestHandle" />
+        <item itemvalue="JUnit.TestHandle" />
+        <item itemvalue="JUnit.TestHandle.testhadle" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpringBeansView">
+    <option name="showModules" value="false" />
+    <option name="showFiles" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4af47e20-7d9e-4693-beb3-0d7d24cfc018" name="Default Changelist" comment="" />
+      <created>1600185808666</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1600185808666</updated>
+      <workItem from="1600185810319" duration="4191000" />
+      <workItem from="1600232419573" duration="5832000" />
+      <workItem from="1600249592120" duration="19000" />
+      <workItem from="1600249661910" duration="11000" />
+      <workItem from="1600249787909" duration="2175000" />
+      <workItem from="1600256239796" duration="2082000" />
+      <workItem from="1600271417455" duration="211000" />
+      <workItem from="1600271863795" duration="1296000" />
+      <workItem from="1600273232844" duration="398000" />
+      <workItem from="1600316735296" duration="451000" />
+      <workItem from="1600317922393" duration="69000" />
+      <workItem from="1600318050620" duration="1641000" />
+      <workItem from="1600333072508" duration="50000" />
+      <workItem from="1600333166020" duration="29000" />
+      <workItem from="1600333229331" duration="237000" />
+      <workItem from="1600333854975" duration="37000" />
+      <workItem from="1600333932658" duration="80000" />
+      <workItem from="1600334139521" duration="15000" />
+      <workItem from="1600334216271" duration="677000" />
+      <workItem from="1600336833235" duration="92000" />
+      <workItem from="1600339105704" duration="229000" />
+      <workItem from="1600341256692" duration="1528000" />
+      <workItem from="1600361305162" duration="186000" />
+      <workItem from="1600421430926" duration="254000" />
+      <workItem from="1600586735613" duration="808000" />
+      <workItem from="1600768292587" duration="784000" />
+      <workItem from="1601107297677" duration="232000" />
+      <workItem from="1603098275809" duration="302000" />
+      <workItem from="1609915754667" duration="1436000" />
+      <workItem from="1611480376737" duration="291000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="361" y="71" key="#Notifications" timestamp="1600186494947">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="361" y="71" key="#Notifications/0.0.1536.824@0.0.1536.824" timestamp="1600186494947" />
+    <state x="361" y="71" key="#Project_Structure" timestamp="1600186062809">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="361" y="71" key="#Project_Structure/0.0.1536.824@0.0.1536.824" timestamp="1600186062809" />
+    <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1600273456030">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1600273456030" />
+    <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1600187877027">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1600187877027" />
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1601107529329">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1601107529329" />
+    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1601107529328">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1601107529328" />
+    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1601107529327">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1601107529327" />
+    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1601107529329">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1601107529329" />
+    <state width="1493" height="261" key="GridCell.Tab.1.bottom" timestamp="1600190005597">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1600190005597" />
+    <state width="1493" height="261" key="GridCell.Tab.1.center" timestamp="1600190005596">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1600190005596" />
+    <state width="1493" height="261" key="GridCell.Tab.1.left" timestamp="1600190005596">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1600190005596" />
+    <state width="1493" height="261" key="GridCell.Tab.1.right" timestamp="1600190005596">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1600190005596" />
+    <state x="362" y="0" key="SettingsEditor" timestamp="1600273594500">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="362" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1600273594500" />
+    <state x="193" y="107" key="new project wizard" timestamp="1600339335847">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="193" y="107" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1600339335847" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1600257247965">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1600257247965" />
+    <state x="449" y="95" key="spring file set editor" timestamp="1600186067442">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="449" y="95" key="spring file set editor/0.0.1536.824@0.0.1536.824" timestamp="1600186067442" />
+    <state x="491" y="324" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1600233605657">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="491" y="324" key="vcs.readOnlyHandler.ReadOnlyStatusDialog/0.0.1536.824@0.0.1536.824" timestamp="1600233605657" />
+  </component>
+</project>

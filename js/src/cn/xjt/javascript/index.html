@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>js加载</title>
+
+    <style>
+        .tuk li{
+            display: inline-block;
+            list-style: none;
+            bottom: 15px;
+            right: 20px;
+            width: 20px;
+            height: 20px;
+            background-color: rgba(0,0,0,0.2);
+            border-radius: 50%;
+            margin-right: 10px;
+        }
+        .tuk{
+            height: 10px;
+            width: 200px;
+            margin-top: -25px;
+        }
+        .fu{
+            background: url("img2/p1.jpg");
+        }
+        ul li:hover{
+            background-color: red;
+        }
+        .xiaobiao{
+            position: absolute;
+            right: 350px;
+        }
+        .ding{
+            position: relative;
+        }
+    </style>
+</head>
+<body style="margin: 20px auto;width: 750px">
+    <div class="fu" style="width: 750px;height: 315px;">
+        <div style="width: 750px;height: 315px;" class="x">
+            <img src="img2/p1.jpg" alt="这是一个图片" id="tupian" style="width: 200px;">
+        </div>
+        <div class="xiaobiao"  style="height: 10px;width: 400px">
+            <ul class="tuk" style="height: 10px;width: 400px">
+                <li onmouseenter="f(1)"></li>
+                <li onmouseenter="f(2)"></li>
+                <li onmouseenter="f(3)"></li>
+                <li onmouseenter="f(4)"></li>
+                <li onmouseenter="f(5)"></li>
+                <li onmouseenter="f(6)"></li>
+                <li onmouseenter="f(7)"></li>
+                <li onmouseenter="f(8)"></li>
+            </ul>
+        </div>
+
+    </div>
+
+</body>
+</html>
+<script type="text/javascript">
+
+    function f(num) {
+        // document.getElementById("tupian").src="img2/p"+num+".jpg";
+        // alert("div按钮");
+        document.getElementById("tupian").src="img2/p"+num+".jpg"
+        document.getElementById("x").style.backgroundImage="url(\"img2/p"+num+".jpg\")";
+    }
+</script>

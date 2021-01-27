@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:p="http://www.springframework.org/schema/p" xmlns:util="http://www.springframework.org/schema/util"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/util http://www.springframework.org/schema/util/spring-util.xsd">
+
+<!--    <bean class="com.xjt.spring.di.Student" id="student">-->
+<!--        <property name="id" value="1"></property>-->
+<!--        <property name="name" value="徐江涛"></property>-->
+<!--        <property name="age" value="18"></property>-->
+<!--        <property name="sex" value="男"></property>-->
+<!--    </bean>-->
+
+<!--    <bean id="s2" class="com.xjt.spring.di.Student">-->
+<!--        <constructor-arg value="10086"></constructor-arg>-->
+<!--        <constructor-arg value="江涛"></constructor-arg>-->
+<!--        <constructor-arg value="20"></constructor-arg>-->
+<!--        <constructor-arg value="男"></constructor-arg>-->
+<!--    </bean>-->
+
+    <bean id="s3" class="com.xjt.spring.di.Student" p:id="100" p:name="徐" p:sex="男" p:age="20"></bean>
+
+    <bean id="s4" class="com.xjt.spring.di.Student">
+        <property name="id" value="1"></property>
+        <property name="name" value="徐江涛"></property>
+        <property name="age" value="18"></property>
+        <property name="sex" value="男"></property>
+        <property name="teacher">
+            <bean id="1111" class="com.xjt.spring.di.Teacher">
+                <property name="id" value="111"></property>
+                <property name="name" value="内部bean"></property>
+            </bean>
+        </property>
+    </bean>
+
+    <bean id="t" class="com.xjt.spring.di.Teacher" p:id="1" p:name="徐老师"></bean>
+
+    <bean id="tt" class="com.xjt.spring.di.Teacher">
+        <property name="id" value="3"></property>
+        <property name="name" value="小老师"></property>
+        <property name="css">
+            <list>
+                <value>A</value>
+                <value>B</value>
+                <value>C</value>
+                <value>D</value>
+            </list>
+        </property>
+    </bean>
+
+    <bean id="tt2" class="com.xjt.spring.di.Teacher">
+        <property name="id" value="3"></property>
+        <property name="name" value="小老师"></property>
+        <property name="css">
+            <list>
+                <value>A</value>
+                <value>B</value>
+                <value>C</value>
+                <value>D</value>
+            </list>
+        </property>
+        <property name="students" ref="students">
+<!--            <list>-->
+<!--                <bean id="ss" class="com.xjt.spring.di.Student">-->
+<!--                    <property name="id" value="20"></property>-->
+<!--                    <property name="name" value="xu"></property>-->
+<!--                    <property name="age" value="18"></property>-->
+<!--                    <property name="sex" value="nan"></property>-->
+<!--                    <property name="teacher">-->
+<!--                        <bean id="te" class="com.xjt.spring.di.Teacher" p:id="15" p:name="徐老师2"></bean>-->
+<!--                    </property>-->
+<!--                </bean>-->
+<!--                <bean id="sss" class="com.xjt.spring.di.Student">-->
+<!--                    <property name="id" value="22"></property>-->
+<!--                    <property name="name" value="xu2"></property>-->
+<!--                    <property name="age" value="19"></property>-->
+<!--                    <property name="sex" value="nan2"></property>-->
+<!--                    <property name="teacher">-->
+<!--                        <bean id="te" class="com.xjt.spring.di.Teacher" p:id="156" p:name="徐老师23"></bean>-->
+<!--                    </property>-->
+<!--                </bean>-->
+<!--            </list>-->
+        </property>
+    </bean>
+
+    <util:list id="students">
+            <ref bean="s3"></ref>
+            <ref bean="s4"></ref>
+    </util:list>
+
+
+    <bean id="tt3" class="com.xjt.spring.di.Teacher">
+        <property name="id" value="56"></property>
+        <property name="name" value="xu老师"></property>
+        <property name="map">
+            <map>
+                <entry>
+                    <key>
+                        <value>上司名字</value>
+                    </key>
+                    <value>徐长官</value>
+                </entry>
+            </map>
+        </property>
+    </bean>
+</beans>

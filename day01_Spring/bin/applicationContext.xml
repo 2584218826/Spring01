@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!--
+        <bean>:定义spring所管理得对象
+        id：代表该对象得唯一标识，注意，不能重复,再通过类型获得bean得过程中可以不设置
+        class：此对象所属得全限定名（包名+类名）
+    -->
+    <bean class="com.xjt.spring.mod.Person" id="person">
+<!--
+    <property>:为对象得某个属性赋值
+    name：属性名
+    valu：属性值
+-->
+        <property name="id" value="1"></property>
+        <property name="name" value="徐江涛"></property>
+    </bean>
+</beans>

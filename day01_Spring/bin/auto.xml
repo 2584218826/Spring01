@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="emp" class="com.xjt.spring.ioc.Emp">
+        <property name="eid" value="1001"></property>
+        <property name="ename" value="徐江涛"></property>
+        <property name="car" ref="car"></property>
+        <property name="dept" ref="dept"></property>
+    </bean>
+
+    <bean id="car" class="com.xjt.spring.ioc.Car">
+        <property name="cid" value="5001"></property>
+        <property name="cname" value="奔驰"></property>
+    </bean>
+
+    <bean id="dept" class="com.xjt.spring.ioc.Dept">
+        <property name="did" value="4015"></property>
+        <property name="dname" value="人事部"></property>
+    </bean>
+</beans>
